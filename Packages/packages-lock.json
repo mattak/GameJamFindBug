@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "50a67d8f419b6cea0398eff6c19cf0bbe11ed609"
+    },
+    "com.neuecc.unirx": {
+      "version": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "284d5c50d3f1ddd9fa7df3d382ea904732a9c2ff"
+    },
     "com.unity.2d.animation": {
       "version": "7.0.2",
       "depth": 0,
@@ -209,6 +223,31 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "dev.kyubuns.animetask": {
+      "version": "https://github.com/kyubuns/AnimeTask.git?path=Assets/AnimeTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask"
+      },
+      "hash": "b863c934746d36b2f629c919def9aa6c8f0b75c4"
+    },
+    "me.mattak.numberingeditor": {
+      "version": "https://github.com/mattak/NumberingEditor.git?path=Assets/Plugins/NumberingEditor",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2db25a6337114f8783f49bb6fd6b105cf8473b95"
+    },
+    "me.mattak.unityhooks": {
+      "version": "https://github.com/mattak/UnityHooks.git?path=Assets/UnityHooks/Scripts",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.neuecc.unirx": "7.1.0"
+      },
+      "hash": "0bc6b52d4bac10039bb120ecf6979b3d8696621a"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

@@ -1,5 +1,10 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+    "com.neuecc.unirx": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts",
+    "dev.kyubuns.animetask": "https://github.com/kyubuns/AnimeTask.git?path=Assets/AnimeTask",
+    "me.mattak.numberingeditor": "https://github.com/mattak/NumberingEditor.git?path=Assets/Plugins/NumberingEditor",
+    "me.mattak.unityhooks": "https://github.com/mattak/UnityHooks.git?path=Assets/UnityHooks/Scripts",
     "com.unity.2d.animation": "7.0.2",
     "com.unity.2d.pixel-perfect": "5.0.1",
     "com.unity.2d.psdimporter": "6.0.1",
